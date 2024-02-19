@@ -1,0 +1,220 @@
+{
+  "image_20240219220746408816.jpg": [
+    {
+      "Visage 1": {
+        "emotion_dominante": "sad",
+        "genre_dominant": "Woman"
+      }
+    },
+    {
+      "Visage 2": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Man"
+      }
+    },
+    {
+      "Visage 3": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Man"
+      }
+    },
+    {
+      "Visage 4": {
+        "emotion_dominante": "happy",
+        "genre_dominant": "Man"
+      }
+    }
+  ],
+  "image_20240219220815298598.jpg": [
+    {
+      "Visage 1": {
+        "emotion_dominante": "sad",
+        "genre_dominant": "Woman"
+      }
+    },
+    {
+      "Visage 2": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Man"
+      }
+    },
+    {
+      "Visage 3": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Man"
+      }
+    },
+    {
+      "Visage 4": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Man"
+      }
+    },
+    {
+      "Visage 5": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Woman"
+      }
+    },
+    {
+      "Visage 6": {
+        "emotion_dominante": "sad",
+        "genre_dominant": "Man"
+      }
+    }
+  ],
+  "image_20240219220842402488.jpg": [
+    {
+      "Visage 1": {
+        "emotion_dominante": "sad",
+        "genre_dominant": "Woman"
+      }
+    },
+    {
+      "Visage 2": {
+        "emotion_dominante": "sad",
+        "genre_dominant": "Man"
+      }
+    },
+    {
+      "Visage 3": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Man"
+      }
+    },
+    {
+      "Visage 4": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Man"
+      }
+    },
+    {
+      "Visage 5": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Woman"
+      }
+    }
+  ],
+  "image_20240219220908431741.jpg": [
+    {
+      "Visage 1": {
+        "emotion_dominante": "sad",
+        "genre_dominant": "Woman"
+      }
+    },
+    {
+      "Visage 2": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Man"
+      }
+    },
+    {
+      "Visage 3": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Man"
+      }
+    },
+    {
+      "Visage 4": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Man"
+      }
+    },
+    {
+      "Visage 5": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Woman"
+      }
+    },
+    {
+      "Visage 6": {
+        "emotion_dominante": "sad",
+        "genre_dominant": "Man"
+      }
+    }
+  ],
+  "image_20240219220928473241.jpg": [
+    {
+      "Visage 1": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Woman"
+      }
+    },
+    {
+      "Visage 2": {
+        "emotion_dominante": "sad",
+        "genre_dominant": "Man"
+      }
+    },
+    {
+      "Visage 3": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Man"
+      }
+    },
+    {
+      "Visage 4": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Man"
+      }
+    },
+    {
+      "Visage 5": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Man"
+      }
+    },
+    {
+      "Visage 6": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Woman"
+      }
+    }
+  ],
+  "image_20240219220949228009.jpg": [
+    {
+      "Visage 1": {
+        "emotion_dominante": "sad",
+        "genre_dominant": "Woman"
+      }
+    },
+    {
+      "Visage 2": {
+        "emotion_dominante": "sad",
+        "genre_dominant": "Man"
+      }
+    },
+    {
+      "Visage 3": {
+        "emotion_dominante": "neutral",
+        "genre_dominant": "Man"
+      }
+    },
+    {
+      "Visage 4": {
+        "emotion_dominante": "happy",
+        "genre_dominant": "Woman"
+      }
+    },
+    {
+      "Visage 5": {
+        "emotion_dominante": "sad",
+        "genre_dominant": "Man"
+      }
+    }
+  ],
+  "emotion_frequency": {
+    "sad": 11,
+    "neutral": 19,
+    "happy": 2
+  },
+  "most_frequent_emotion": "neutral",
+  "images": [
+    "image_20240219220746408816.jpg",
+    "image_20240219220815298598.jpg",
+    "image_20240219220842402488.jpg",
+    "image_20240219220908431741.jpg",
+    "image_20240219220928473241.jpg",
+    "image_20240219220949228009.jpg"
+  ]
+}
