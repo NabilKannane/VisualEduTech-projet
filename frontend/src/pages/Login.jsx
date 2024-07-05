@@ -29,7 +29,7 @@ export default function Login() {
         console.log(response.data);
         localStorage.setItem("accessToken", response.data.accessToken);
         localStorage.setItem("refreshToken", response.data.refreshToken);
-        navigate("/dashboard");
+        navigate("/home");
       })
       .catch((error) => {
         console.error("Error fetching data:", error);

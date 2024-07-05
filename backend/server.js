@@ -9,9 +9,9 @@ const app = require("./app");
 // middleware
 app.use(express.json())
 
-// Etablire une connexion à la base de données
+// connexion Mongodb
 
-const DB_URI="mongodb+srv://nabilkannane:UBllIqq4NRekg6oT@cluster0.71dyn8p.mongodb.net/projet"
+const DB_URI=process.env.DB_URI
 
 
 const connectDb = async () => {

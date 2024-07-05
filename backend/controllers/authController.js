@@ -22,17 +22,25 @@ async function login(req, res) {
   const { username, password } = req.body;
   const user = await User.findOne({ username });
   if (!user) {
-    return res.status(404).json({message: " User not found !" });
+    return res.status(404).json({ message: " User not found !" });
   }
   if (user.password != password) {
     return res.status(401).json({ message: "Invalide creadentials !" });
   }
 
-  const accessToken = generateAccessToken({username : user.username , password : user.password});
-  const refreshToken = jwt.sign({username : user.username , password : user.password}, process.env.REFRESH_TOKEN_SECRET);
+  const accessToken = generateAccessToken({
+    username: user.username,
+    password: user.password,
+  });
+  const refreshToken = jwt.sign(
+    { username: user.username, password: user.password },
+    process.env.REFRESH_TOKEN_SECRET
+  );
   refreshTokens.push(refreshToken);
   console.log(user);
-  res.status(200).json({ accessToken: accessToken, refreshToken: refreshToken });
+  res
+    .status(200)
+    .json({ accessToken: accessToken, refreshToken: refreshToken });
 }
 
 async function logout(req, res) {
@@ -43,7 +51,6 @@ async function logout(req, res) {
 function generateAccessToken(user) {
   return jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, { expiresIn: "30m" });
 }
-
 
 async function register(req, res) {
   try {

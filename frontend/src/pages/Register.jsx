@@ -7,11 +7,15 @@ export default function Register() {
 
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [email, setEmail] = useState("test@gmail.com");
+  const [email, setEmail] = useState("");
   const navigate= useNavigate()
 
   function handleUsernameChange(event) {
     setUsername(event.target.value);
+  }
+
+  function handleEmailChange(event){
+    setEmail(event.target.value);
   }
 
   function handlePasswordChange(event) {
@@ -86,7 +90,7 @@ export default function Register() {
                     autoComplete="current-password"
                     required
                     className="block w-full rounded-md border-0 px-2.5 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                    onChange={handlePasswordChange}
+                    onChange={handleEmailChange}
                   />
                 </div>
               </div>
@@ -126,7 +130,7 @@ export default function Register() {
                   <input
                     id="conf_password"
                     name="conf_password"
-                    type="conf_password"
+                    type="password"
                     autoComplete="current-password"
                     required
                     className="block w-full rounded-md border-0 px-2.5 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"

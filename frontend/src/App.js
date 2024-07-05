@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { Dashboard, Upload, Login, Register, Results} from "./pages";
+import { Dashboard, Login, Register, NewOuvrage , Ouvrage , EditOuvrage} from "./pages";
 
 import "./App.css";
 import DashboardWraper from "./components/DashboardWraper";
@@ -18,10 +18,11 @@ const App = () => {
       <BrowserRouter>
               <Routes>
                 <Route path="/" element={<DashboardWraper/>}>
-                  <Route index={true} path="/" element={<Navigate to="/dashboard"/>} />
-                  <Route path="/dashboard" element={<PrivateRoute Component={Dashboard}/>} />
-                  <Route path="/upload" element={<PrivateRoute Component={Upload}/>} />
-                  <Route path="/results" element={<PrivateRoute Component={Results}/>} />
+                  <Route index={true} path="/" element={<Navigate to="/home"/>} />
+                  <Route path="/home" element={<PrivateRoute Component={Dashboard}/>} />
+                  <Route path="/newOuvrage" element={<PrivateRoute Component={NewOuvrage}/>} />
+                  <Route path="/Ouvrage/:id" element={<PrivateRoute Component={Ouvrage}/>} />
+                  <Route path="/editOuvrage/:id" element={<PrivateRoute Component={EditOuvrage}/>} />
                 </Route>
                 {/* dashboard  */}
 
