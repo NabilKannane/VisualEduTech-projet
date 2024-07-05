@@ -1,0 +1,264 @@
+[{
+  "_id": {
+    "$oid": "66886616d52b36e90f72e7df"
+  },
+  "titre": "To Kill a Mockingbird",
+  "dispo": 1,
+  "type": "livres",
+  "exemplaires": [
+    "ex1",
+    "ex2",
+    "ex3"
+  ],
+  "details": {
+    "annee": 1960,
+    "edition": "J.B. Lippincott & Co.",
+    "auteur": "Harper Lee"
+  }
+},
+{
+  "_id": {
+    "$oid": "66886616d52b36e90f72e7e0"
+  },
+  "titre": "National Geographic",
+  "dispo": 1,
+  "type": "periodique",
+  "details": {
+    "date": "2022-01-02",
+    "periodicite": "mensuel"
+  }
+},
+{
+  "_id": {
+    "$oid": "66886616d52b36e90f72e7e1"
+  },
+  "titre": "1984",
+  "dispo": 1,
+  "type": "livres",
+  "exemplaires": [
+    "ex4",
+    "ex5",
+    "ex6"
+  ],
+  "details": {
+    "annee": 1949,
+    "edition": "Secker & Warburg",
+    "auteur": "George Orwell"
+  }
+},
+{
+  "_id": {
+    "$oid": "66886616d52b36e90f72e7e2"
+  },
+  "titre": "Time",
+  "dispo": 1,
+  "type": "periodique",
+  "details": {
+    "date": "2022-02-15",
+    "periodicite": "hebdomadaire"
+  }
+},
+{
+  "_id": {
+    "$oid": "66886616d52b36e90f72e7e3"
+  },
+  "titre": "Pride and Prejudice",
+  "dispo": 1,
+  "type": "livres",
+  "exemplaires": [
+    "ex7",
+    "ex8",
+    "ex9"
+  ],
+  "details": {
+    "annee": 1813,
+    "edition": "T. Egerton",
+    "auteur": "Jane Austen"
+  }
+},
+{
+  "_id": {
+    "$oid": "66886616d52b36e90f72e7e4"
+  },
+  "titre": "The Economist",
+  "dispo": 1,
+  "type": "periodique",
+  "details": {
+    "date": "2022-03-20",
+    "periodicite": "hebdomadaire"
+  }
+},
+{
+  "_id": {
+    "$oid": "66886616d52b36e90f72e7e5"
+  },
+  "titre": "The Great Gatsby",
+  "dispo": 1,
+  "type": "livres",
+  "exemplaires": [
+    "ex10",
+    "ex11",
+    "ex12"
+  ],
+  "details": {
+    "annee": 1925,
+    "edition": "Charles Scribner's Sons",
+    "auteur": "F. Scott Fitzgerald"
+  }
+},
+{
+  "_id": {
+    "$oid": "66886616d52b36e90f72e7e6"
+  },
+  "titre": "Scientific American",
+  "dispo": 1,
+  "type": "periodique",
+  "details": {
+    "date": "2022-04-10",
+    "periodicite": "mensuel"
+  }
+},
+{
+  "_id": {
+    "$oid": "66886616d52b36e90f72e7e7"
+  },
+  "titre": "Moby Dick",
+  "dispo": 1,
+  "type": "livres",
+  "exemplaires": [
+    "ex13",
+    "ex14",
+    "ex15"
+  ],
+  "details": {
+    "annee": 1851,
+    "edition": "Harper & Brothers",
+    "auteur": "Herman Melville"
+  }
+},
+{
+  "_id": {
+    "$oid": "66886616d52b36e90f72e7e8"
+  },
+  "titre": "Nature",
+  "dispo": 1,
+  "type": "periodique",
+  "details": {
+    "date": "2022-05-05",
+    "periodicite": "hebdomadaire"
+  }
+},
+{
+  "_id": {
+    "$oid": "66886616d52b36e90f72e7e9"
+  },
+  "titre": "War and Peace",
+  "dispo": 1,
+  "type": "livres",
+  "exemplaires": [
+    "ex16",
+    "ex17",
+    "ex18"
+  ],
+  "details": {
+    "annee": 1869,
+    "edition": "The Russian Messenger",
+    "auteur": "Leo Tolstoy"
+  }
+},
+{
+  "_id": {
+    "$oid": "66886616d52b36e90f72e7ea"
+  },
+  "titre": "The New Yorker",
+  "dispo": 1,
+  "type": "periodique",
+  "details": {
+    "date": "2022-06-25",
+    "periodicite": "hebdomadaire"
+  }
+},
+{
+  "_id": {
+    "$oid": "66886616d52b36e90f72e7eb"
+  },
+  "titre": "The Catcher in the Rye",
+  "dispo": 1,
+  "type": "livres",
+  "exemplaires": [
+    "ex19",
+    "ex20",
+    "ex21"
+  ],
+  "details": {
+    "annee": 1951,
+    "edition": "Little, Brown and Company",
+    "auteur": "J.D. Salinger"
+  }
+},
+{
+  "_id": {
+    "$oid": "66886616d52b36e90f72e7ec"
+  },
+  "titre": "The Hobbit",
+  "dispo": 1,
+  "type": "livres",
+  "exemplaires": [
+    "ex22",
+    "ex23",
+    "ex24"
+  ],
+  "details": {
+    "annee": 1937,
+    "edition": "George Allen & Unwin",
+    "auteur": "J.R.R. Tolkien"
+  }
+},
+{
+  "_id": {
+    "$oid": "66886616d52b36e90f72e7ed"
+  },
+  "titre": "Forbes",
+  "dispo": 1,
+  "type": "periodique",
+  "details": {
+    "date": "2022-07-15",
+    "periodicite": "mensuel"
+  }
+},
+{
+  "_id": {
+    "$oid": "66886616d52b36e90f72e7ee"
+  },
+  "titre": "Ulysses",
+  "dispo": 1,
+  "type": "livres",
+  "exemplaires": [
+    "ex25",
+    "ex26",
+    "ex27"
+  ],
+  "details": {
+    "annee": 1922,
+    "edition": "Shakespeare and Company",
+    "auteur": "James Joyce"
+  }
+},
+{
+  "_id": {
+    "$oid": "66886616d52b36e90f72e7ef"
+  },
+  "titre": "The Odyssey",
+  "dispo": 1,
+  "type": "livres",
+  "exemplaires": [
+    "ex28",
+    "ex29",
+    "ex30"
+  ],
+  "details": {
+    "annee": "8th century BC",
+    "edition": "Various",
+    "auteur": "Homer"
+  }
+}]
